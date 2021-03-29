@@ -1,5 +1,6 @@
 # TSNE-code
 # https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html
+# https://www.kaggle.com/arthurtok/interactive-intro-to-dimensionality-reduction/comments
 # Introduction
 There already exists a plethora of notebooks discussing the merits of dimensionality reduction methods, in particular the Big 3 of PCA (Principal Component Analysis), LDA ( Linear Discriminant Analysis) and TSNE ( T-Distributed Stochastic Neighbour Embedding). Quite a handful of these have compared one to the other but few have gathered all 3 in one go. Therefore this notebook will aim to provide an introductory exposition on these 3 methods as well as to portray their visualisations interactively and hopefully more intuitively via the Plotly visualisation library. The chapters are structuredas follows:
 
