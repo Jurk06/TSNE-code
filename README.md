@@ -1,4 +1,4 @@
-# TSNE-code
+# PCA (Principal Component Analysis)
 # https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html
 # https://www.kaggle.com/arthurtok/interactive-intro-to-dimensionality-reduction/comments
 # Introduction
