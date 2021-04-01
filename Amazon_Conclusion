@@ -1,0 +1,5 @@
+# Conclusions:-
+
+*  AS none of TSNE representation gives a well separated both +ve and -ve reviews.
+*  We can not simply draw a plane to separate -ve and +ve reviews. Although, By looking at only visual representation of data we can not take decision whether to draw a plane or not.
+*  We will have some alternative method by that we will look at into this problem like how we can separate -ve and +ve reviews.
