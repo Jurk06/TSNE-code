@@ -50,7 +50,12 @@ Therefore when PCA seeks to maximise this variance, the method is trying to find
          2 In low dimensional space
      * Process like this
   
- 
+ # 5 What does t-SNE actually do?
+     * It’s quite simple actually, t-SNE a non-linear dimensionality reduction algorithm
+     * It finds patterns in the data by identifying observed clusters based on similarity of data points with multiple features
+     * But it is not a clustering algorithm it is a dimensionality reduction algorithm.
+     * This is because it maps the multi-dimensional data to a lower dimensional space, the input features are no longer identifiable. 
+     * Thus you cannot make any inference based only on the output of t-SNE. So essentially it is mainly a data exploration and visualization technique.
  
  
  
