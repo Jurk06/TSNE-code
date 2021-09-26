@@ -42,7 +42,14 @@ Therefore when PCA seeks to maximise this variance, the method is trying to find
      * it preserves the local orientation of the data.
      * it is based on probability distributions with random walk on neighborhood graphs to find the structure within the data.
  
- 
+ # 4 Algorith of tSNE
+     * converting the high-dimensional Euclidean distances between data points into conditional probabilities that represent similarities.
+     * In simple terms step 1 and step2 calculate the conditional probability of similarity between a pair of points in
+
+         1 High dimensional space
+         2 In low dimensional space
+     * Process like this
+  
  
  
  
