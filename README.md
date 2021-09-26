@@ -21,12 +21,33 @@ To answer the question, more context has to be given about the PCA method. One h
 
 Therefore when PCA seeks to maximise this variance, the method is trying to find directions ( principal components ) that contain the largest spread/subset of data points or information ( variance ) relative to all the data points present. For a brilliant and detailed description on this, check out this stackexchange thread
 
-*  Reduction from higher to lower dimension.
-*  Reducing the niose i.e. variance of the data
-*  Example
-*  reduction from 2d to 1d
-*  Mathematical Objective Function
-*  Finding the direction of spread of the data
-*  FInd the unit vector along the direction
-*  Find the projection of the dataset along the axis which we ll keep
-*  Replace the projection by their variance . {u^Txi}- variance formula
+    *  Reduction from higher to lower dimension.
+    *  Reducing the niose i.e. variance of the data
+    *  Example
+    *  reduction from 2d to 1d
+    *  Mathematical Objective Function
+    *  Finding the direction of spread of the data
+    *  FInd the unit vector along the direction
+    *  Find the projection of the dataset along the axis which we ll keep
+    *  Replace the projection by their variance . {u^Txi}- variance formula
+   
+ # 2. Limitations of PCA
+    There are following limitation of PCA
+      * PCA is a linear algorithm. It will not be able to interpret complex polynomial relationship between features.
+      * It is unable to retain the circular cluster. 
+      * Any shape it converts that into a linear shape.
+ # 3 what is tSNE?
+     * t-Distributed Stochastic Neighbor Embedding (t-SNE) is an unsupervised, non-linear technique primarily used for data exploration and visualizing high-dimensional data. 
+     * It helps to give a feel of how data are arranged in higher dimension to the lower dimesnion.
+     * it preserves the local orientation of the data.
+     * it is based on probability distributions with random walk on neighborhood graphs to find the structure within the data.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
